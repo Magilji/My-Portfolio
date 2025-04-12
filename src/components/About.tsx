@@ -52,7 +52,7 @@ const About = () => {
                 <div className="absolute w-full h-full rounded bg-portfolio-accent/20 translate-x-5 translate-y-5"></div>
                 <div className="absolute inset-0 rounded border-2 border-portfolio-accent bg-portfolio-bg overflow-hidden group">
                   <div className="absolute inset-0 bg-portfolio-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img src="https://placehold.co/600x800/0a192f/ccd6f6?text=Your+Photo" alt="Profile Image" className="w-full h-full object-cover mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none transition-all duration-300" />
+                  <img alt="Profile Image" src="/lovable-uploads/74006def-7e54-4693-9986-30ec9a337121.jpg" className="w-full h-full mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none transition-all duration-300 object-fill" />
                 </div>
               </div>
             </div>
