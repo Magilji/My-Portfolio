@@ -1,26 +1,24 @@
-
 import { motion } from 'framer-motion';
-
 const About = () => {
-  const skills = [
-    'JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 
-    'Express', 'HTML & CSS', 'Tailwind CSS', 'Three.js'
-  ];
-
-  return (
-    <section id="about" className="section-container">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-      >
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'Express', 'HTML & CSS', 'Tailwind CSS', 'Three.js'];
+  return <section id="about" className="section-container">
+      <motion.div initial={{
+      opacity: 0,
+      y: 20
+    }} whileInView={{
+      opacity: 1,
+      y: 0
+    }} viewport={{
+      once: true
+    }} transition={{
+      duration: 0.6
+    }}>
         <h2 className="section-title numbered-heading">About Me</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-12">
           <div>
             <p className="mb-4">
-              Hello! My name is <span className="highlight">Your Name</span> and I enjoy creating things that live on the internet. 
+              Hello! My name is <span className="highlight">Mahesh M</span> and I enjoy creating things that live on the internet. 
               My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking 
               together a custom reblog button taught me a lot about HTML & CSS!
             </p>
@@ -41,11 +39,9 @@ const About = () => {
             </p>
             
             <ul className="grid grid-cols-2 gap-x-4 gap-y-2 font-mono text-sm">
-              {skills.map((skill, i) => (
-                <li key={i} className="flex items-center before:content-['▹'] before:text-portfolio-accent before:mr-2">
+              {skills.map((skill, i) => <li key={i} className="flex items-center before:content-['▹'] before:text-portfolio-accent before:mr-2">
                   {skill}
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
           
@@ -56,19 +52,13 @@ const About = () => {
                 <div className="absolute w-full h-full rounded bg-portfolio-accent/20 translate-x-5 translate-y-5"></div>
                 <div className="absolute inset-0 rounded border-2 border-portfolio-accent bg-portfolio-bg overflow-hidden group">
                   <div className="absolute inset-0 bg-portfolio-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img
-                    src="https://placehold.co/600x800/0a192f/ccd6f6?text=Your+Photo"
-                    alt="Profile Image"
-                    className="w-full h-full object-cover mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none transition-all duration-300"
-                  />
+                  <img src="https://placehold.co/600x800/0a192f/ccd6f6?text=Your+Photo" alt="Profile Image" className="w-full h-full object-cover mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none transition-all duration-300" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </motion.div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
