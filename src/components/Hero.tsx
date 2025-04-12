@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import ThreeScene from './ThreeScene';
 import { Button } from '@/components/ui/button';
@@ -53,9 +52,12 @@ const Hero = () => {
             I specialize in building exceptional digital experiences with Flutter, Unity3D, and AR technologies.
           </motion.p>
           
-          <motion.div variants={itemVariants}>
+          <motion.div variants={itemVariants} className="flex space-x-4">
             <a href="#projects">
               <Button className="btn text-base px-7 py-5">Check out my work!</Button>
+            </a>
+            <a href="/Mahesh_M_Resume.pdf" download>
+              <Button variant="outline" className="btn text-base px-7 py-5">Download Resume</Button>
             </a>
           </motion.div>
         </motion.div>
