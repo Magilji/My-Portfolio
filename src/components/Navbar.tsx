@@ -62,7 +62,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="text-portfolio-accent font-bold text-2xl">
-          Portfolio
+          Mahesh M
         </a>
 
         {/* Desktop Navigation */}

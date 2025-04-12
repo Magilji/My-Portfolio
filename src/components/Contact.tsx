@@ -21,7 +21,7 @@ const Contact = () => {
         job opportunities as well.
       </p>
       
-      <a href="mailto:youremail@example.com">
+      <a href="mailto:mahesh.m.chandran@gmail.com">
         <Button className="btn text-base px-7 py-5">Say Hello</Button>
       </a>
     </motion.section>
