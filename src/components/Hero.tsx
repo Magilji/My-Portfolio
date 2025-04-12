@@ -50,8 +50,7 @@ const Hero = () => {
           </motion.h2>
           
           <motion.p className="text-portfolio-textLight text-lg mb-8 max-w-lg" variants={itemVariants}>
-            Currently working as an App Developer at Cygnus IT Solutions, specializing in building 
-            (and occasionally designing) exceptional digital experiences with Flutter, Unity3D, and AR technologies.
+            I specialize in building exceptional digital experiences with Flutter, Unity3D, and AR technologies.
           </motion.p>
           
           <motion.div variants={itemVariants}>
