@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 import ThreeScene from './ThreeScene';
 import { Button } from '@/components/ui/button';
@@ -56,7 +57,7 @@ const Hero = () => {
             <a href="#projects">
               <Button className="btn text-base px-7 py-5">Check out my work!</Button>
             </a>
-            <a href="/Mahesh_M_Resume.pdf" download>
+            <a href="/Mahesh_M_Resume.pdf" download="Mahesh_M_Resume.pdf">
               <Button variant="outline" className="btn text-base px-7 py-5">Download Resume</Button>
             </a>
           </motion.div>
