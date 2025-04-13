@@ -3,13 +3,11 @@ import { motion } from 'framer-motion';
 const About = () => {
   const skills = [
     'UI/UX Design', 
-    'Flutter', 
     'FlutterFlow', 
     'Unity3D', 
     'Firebase',
     'AR Development',
-    '3D Modeling',
-    'Real-Time Database Integration'
+    '3D Modeling'
   ];
   
   return (
