@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -58,7 +57,6 @@ const About = () => {
           
           <div className="relative">
             <div className="relative mx-auto w-64 h-80 md:w-80 md:h-96 transition-all">
-              {/* Image wrapper */}
               <div className="relative z-10 w-full h-full">
                 <div className="absolute w-full h-full rounded bg-portfolio-accent/20 translate-x-5 translate-y-5"></div>
                 <div className="absolute inset-0 rounded border-2 border-portfolio-accent bg-portfolio-bg overflow-hidden group">
@@ -66,7 +64,7 @@ const About = () => {
                   <img 
                     alt="Profile Image" 
                     src="/lovable-uploads/74006def-7e54-4693-9986-30ec9a337121.jpg" 
-                    className="w-full h-full mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none transition-all duration-300 object-fill" 
+                    className="w-full h-full object-cover mix-blend-multiply filter grayscale contrast-100 brightness-90 group-hover:filter-none group-hover:mix-blend-normal group-hover:brightness-100 transition-all duration-300" 
                   />
                 </div>
               </div>
