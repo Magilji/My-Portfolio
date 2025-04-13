@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -7,7 +8,9 @@ const About = () => {
     'Unity3D', 
     'Firebase',
     'AR Development',
-    '3D Modeling'
+    '3D Modeling',
+    'Figma',
+    'Adobe XD'
   ];
   
   return (
@@ -75,3 +78,4 @@ const About = () => {
 };
 
 export default About;
+
