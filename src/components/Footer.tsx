@@ -4,7 +4,10 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/Magilji' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/mahesh-m' },
+    { 
+      name: 'LinkedIn', 
+      url: 'https://www.linkedin.com/in/mahesh-m-18b8b1251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' 
+    },
   ];
 
   return (
